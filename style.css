@@ -1,0 +1,108 @@
+body {
+    background-image: url("bg1.png");
+    background-repeat: repeat;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    border: none;
+    border-radius: 4px;
+    padding: 15px 32px;
+    font-size: 16px;
+    background-color: #4CAF50;
+
+}
+
+header {
+    color: white;
+    border-style: inset;
+    padding: 20px;
+    margin: 10px 20px;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav.main ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-align: right;
+ 
+    
+}
+
+nav.main li {
+    display: inline;
+    margin: 0 20px 0 0;
+  
+}
+
+section {
+    color: white;
+    border-style: inset;
+    padding: 200px 200px;
+    margin: 10px 20px;
+   text-align: center;
+   font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+footer {
+    border-style: inset;
+    padding: 10px;
+    margin: 10px 20px;
+    color: white;
+}
+a{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-size: x-large;
+    color: white;
+ 
+}
+section div{
+    font-size: 80;
+    
+
+}
+section div.video  a{
+    background-image: url("thumbnail.webp");
+    background-repeat: no-repeat;
+    background-size: 500px;
+    display: inline-block;
+    height: 280px;
+    text-indent: -999999999px;
+    width: 500px;
+    text-align: center;
+    border-radius: 40px;
+    list-style-type: none;
+
+
+}
+section div.channel  a{
+    background-repeat: no-repeat;
+    background-size: 300px;  
+    display: inline-block;
+    text-indent: -999999999px;
+    text-align: left;
+    border-radius: 40px;
+    background-image: url("channellogo.jpg");
+    height:300px;
+    width: 300px;
+
+}
+section div.video ul{
+    list-style-type: none;
+
+}
+section div.channel ul{
+    list-style-type: none;
+
+}
+section div.video li{
+    display: inline;
+}
+section div.channel li{
+    display: inline;
+}
